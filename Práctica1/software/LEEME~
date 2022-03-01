@@ -1,8 +1,0 @@
-# Directorios: bin, input, output, src y zip. En el directorio raíz se encuentran cuatro archivos:  el makefile y tres scripts para ejecutar el algoritmo Greedy, el de Búsqueda Local y ambos a la vez. 
-
-En el directorio src se encuentra el código fuente de ambos algoritmos, que han sido implementados en ficheros .cpp distintos. En el directorio bin se encuentran los ejecutables de ambos programas. En el directorio input se encuentran los distintos ficheros con los datos que pasaremos como argumento a la hora de ejecutarlos, y en el directorio output se crean archivos con la información de cada ejecución del algoritmo: el fichero usando, el tiempo empleado y la contribución de la solución.
-
-En el makefile hay se han creado tres macros para poder ejecutar cada programa, tanto por separado como a la vez. Las macros execute_greedy  y execute_bl ejecutan por separado todas los ficheros de entrada usando el algoritmo greedy o el búsqueda local, para ejecutar los dos a la vez hay que utilizar la macro execute_all. 
-
-Con respecto a la semilla empleada en la Búsqueda Local, se pasa como segundo argumento en la ejecución del programa, por lo que para modificarla en la ejecución haría falta modificar el fichero executeBusquedaLocal y cambiarle el valor a la variable semilla.
-
